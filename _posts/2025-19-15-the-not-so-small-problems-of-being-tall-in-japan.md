@@ -33,7 +33,7 @@ I’ve tried everything:
 * Buying second-hand shoes from eBay, shipped directly from the USA.
 * Buying several pairs in Spain whenever I travel back home.
 * Visiting even the biggest outlets in Japan, like the one in Karuizawa (no luck, not even there).
-* Checking on "tall size" or specielizae stores online.
+* Checking on "tall size" or specielized stores online.
 
 I’ve had some wins and many losses. Amazon shoes from random brands were terrible and had to be thrown out (very poor quality). Others were okay but cost a fortune in shipping and import taxes, even more expensive than the shoes themselves.
 
