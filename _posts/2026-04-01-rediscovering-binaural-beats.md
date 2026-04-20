@@ -1,5 +1,5 @@
 ---
-title: Rediscovering Binaural Beats: Exploring Audio for Focus and Wellness
+title: "Rediscovering Binaural Beats: Exploring Audio for Focus and Wellness"
 author: "narmaku"
 date: 2026-04-01 17:11:28 +0900
 categories: [Wellness]
