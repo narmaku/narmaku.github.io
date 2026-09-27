@@ -45,8 +45,9 @@ jobs:
           ruby-version: 3.3
           bundler-cache: true
 
+      # Builds the personal site at / and the blog at /blog (same as Cloudflare).
       - name: Build site
-        run: bundle exec jekyll b -d "_site${{ steps.pages.outputs.base_path }}"
+        run: tools/build.sh "_site${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: "production"
 

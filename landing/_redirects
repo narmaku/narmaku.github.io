@@ -1,0 +1,8 @@
+# Cloudflare Workers static assets redirects (ignored by GitHub Pages).
+# The blog used to be served from the site root; keep old links working.
+/feed.xml /blog/feed.xml 301
+/archives /blog/archives/ 301
+/archives/ /blog/archives/ 301
+/posts/* /blog/posts/:splat 301
+/tags/* /blog/tags/:splat 301
+/categories/* /blog/categories/:splat 301

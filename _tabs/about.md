@@ -12,6 +12,8 @@ I also enjoy hobbies such as martial arts 🥋, videogames 🕹️, table-tennis
 
 I live in Japan 🏯 since November 2022. I may post random articles about life here 🇯🇵.
 
+You can find more about me, my projects, and how I can help through mentoring and consulting on my main site: [narmaku.com](/).
+
 I hope you enjoy my site!
 
 Nico

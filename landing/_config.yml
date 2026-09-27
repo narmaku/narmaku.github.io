@@ -1,0 +1,72 @@
+# narmaku.com — personal site (landing, about, projects, services).
+#
+# This is a small standalone Jekyll site. The blog (Chirpy theme) lives in the
+# repository root and is built into `/blog` next to it. See `tools/build.sh`.
+
+title: Nicolas Munoz
+tagline: Software Engineer in Japan · AI agents, Linux & developer tooling
+description: >-
+  Nicolas Munoz (narmaku) — Software Engineer with over a decade of experience,
+  living in Japan. Writing, projects, mentoring and consulting.
+lang: en
+timezone: Asia/Tokyo
+
+url: "https://narmaku.com"
+baseurl: ""
+
+author:
+  name: Nicolas Munoz
+  email: narmaku@protonmail.com
+
+social:
+  name: Nicolas Munoz
+  links:
+    - https://github.com/narmaku
+    - https://www.linkedin.com/in/narmaku
+
+links:
+  github: https://github.com/narmaku
+  linkedin: https://www.linkedin.com/in/narmaku
+
+nav:
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Services
+    url: /services/
+  - title: Blog
+    url: /blog/
+
+# Where the blog is published and where its posts are read from (relative to
+# this directory) to list the latest articles on the home page.
+blog:
+  path: /blog
+  posts_dir: ../_posts
+  latest: 3
+
+analytics:
+  google:
+    id: G-ET3XK65C99
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+# `_redirects` is read by Cloudflare (not served); keep it in the output.
+include:
+  - _redirects
+
+# The blog is built into `_site/blog` by a separate Jekyll run; don't wipe it.
+keep_files:
+  - .git
+  - blog
+
+sass:
+  style: compressed
