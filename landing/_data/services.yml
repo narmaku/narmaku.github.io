@@ -1,0 +1,35 @@
+# Offerings shown on /services/ and summarised on the home page.
+#
+# Fields: title, summary (one line, used on the home page), description,
+# points (list of bullet points).
+
+- title: Mentoring
+  summary: One-on-one guidance for engineers growing their skills and career.
+  description: >-
+    Regular or one-off sessions for software engineers who want a sounding
+    board from someone who has been in the industry for over a decade.
+  points:
+    - Career growth, interviews and moving into senior roles
+    - Working as an engineer in Japan as a foreigner
+    - Code and design reviews on your own projects
+    - Getting productive with AI coding assistants
+
+- title: AI agent consulting
+  summary: Design, test and evaluate AI agents that act on real systems.
+  description: >-
+    Hands-on help for teams building agents on top of LLMs and the Model
+    Context Protocol (MCP), with a focus on making their behaviour measurable.
+  points:
+    - Evaluation strategy, rubrics and test suites for agents
+    - MCP server and tool design reviews
+    - Guardrails for agents operating on infrastructure
+
+- title: Linux & developer tooling
+  summary: Faster, reproducible development environments for your team.
+  description: >-
+    Advice on the workstation and tooling side of engineering, from
+    containers to automation.
+  points:
+    - Container-based, reproducible dev environments
+    - Linux workstation setup and automation
+    - CI/CD and developer-experience improvements

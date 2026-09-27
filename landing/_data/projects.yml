@@ -1,0 +1,34 @@
+# Projects shown on /projects/ (and the first `featured` ones on the home page).
+#
+# Fields:
+#   name:        project name (required)
+#   description: one or two sentences (required)
+#   url:         main link — repo, demo or write-up (optional)
+#   links:       extra links, e.g. [{title: Demo, url: https://...}] (optional)
+#   tags:        short list of technologies (optional)
+#   featured:    true to show it on the home page (optional)
+
+- name: Rubrics for evaluating AI agents
+  description: >-
+    A repeatable, rubric-based way to evaluate how AI agents behave when they
+    act on real systems through MCP tools — consistent scores instead of
+    one-off manual checks.
+  url: /blog/posts/lets-talk-about-rubrics/
+  tags: [AI agents, MCP, testing, LLM evaluation]
+  featured: true
+
+- name: Reproducible dev environments on Aurora OS
+  description: >-
+    Using Distrobox containers on an immutable Linux desktop to keep every
+    toolchain isolated, disposable and reproducible.
+  url: /blog/posts/leveraging-aurora-os-distroboxes/
+  tags: [Linux, containers, developer experience]
+  featured: true
+
+- name: narmaku.com
+  description: >-
+    This site: a Jekyll landing page plus a Chirpy blog, built in one pipeline
+    and served from Cloudflare's edge, mirrored on GitHub Pages.
+  url: https://github.com/narmaku/narmaku.github.io
+  tags: [Jekyll, Cloudflare Workers, GitHub Actions]
+  featured: true

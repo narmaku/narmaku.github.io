@@ -1,0 +1,24 @@
+---
+title: Page not found
+permalink: /404.html
+sitemap: false
+---
+
+<script>
+  // Blog URLs used to live at the site root (e.g. /posts/...). Cloudflare
+  // redirects them via `_redirects`; this covers hosts without it (GitHub Pages).
+  (function () {
+    var path = location.pathname;
+    if (/^\/(posts|tags|categories|archives)(\/|$)|^\/feed\.xml$/.test(path)) {
+      location.replace('{{ site.blog.path }}' + path + location.search + location.hash);
+    }
+  })();
+</script>
+
+<header class="page-header">
+  <h1>Page not found</h1>
+  <p class="lead">
+    Sorry, that page doesn't exist. Try the <a href="{{ '/' | relative_url }}">home page</a>
+    or the <a href="{{ site.blog.path }}/">blog</a>.
+  </p>
+</header>

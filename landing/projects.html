@@ -1,0 +1,16 @@
+---
+title: Projects
+description: Things Nicolas Munoz has built, tested and written about.
+permalink: /projects/
+---
+
+<header class="page-header">
+  <h1>Projects</h1>
+  <p class="lead">Things I have built, tested or written about. More coming soon.</p>
+</header>
+
+<div class="grid">
+  {% for project in site.data.projects %}
+    {% include project-card.html project=project %}
+  {% endfor %}
+</div>

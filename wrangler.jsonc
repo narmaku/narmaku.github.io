@@ -1,0 +1,16 @@
+// Cloudflare Worker serving narmaku.com as static assets.
+// Deployed by Workers Builds (Cloudflare's GitHub integration):
+//   Build command:  tools/build.sh
+//   Deploy command: npx wrangler deploy
+{
+  "name": "narmaku",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./_site",
+    // Serve the nearest 404.html (the blog's under /blog, the site's elsewhere).
+    "not_found_handling": "404-page"
+  },
+  "routes": [
+    { "pattern": "narmaku.com", "custom_domain": true }
+  ]
+}

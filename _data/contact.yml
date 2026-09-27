@@ -1,5 +1,10 @@
 #  The contact options.
 
+- type: home # back to the main site (narmaku.com)
+  icon: "fas fa-house"
+  url: "/"
+  noblank: true
+
 - type: github
   icon: "fab fa-github"
 

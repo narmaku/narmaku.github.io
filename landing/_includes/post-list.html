@@ -1,0 +1,12 @@
+{% assign posts = site.data.blog_posts | slice: 0, include.limit %}
+<ul class="post-list">
+  {% for post in posts %}
+    <li>
+      <a class="post-link" href="{{ post.url }}">
+        <span class="post-title">{{ post.title }}</span>
+        <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+      </a>
+      {% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt }}</p>{% endif %}
+    </li>
+  {% endfor %}
+</ul>

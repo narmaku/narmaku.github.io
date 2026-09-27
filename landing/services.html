@@ -1,0 +1,37 @@
+---
+title: Mentoring & Consulting
+description: Mentoring for software engineers and consulting on AI agents, MCP, Linux and developer tooling.
+permalink: /services/
+---
+
+<header class="page-header">
+  <h1>Mentoring &amp; Consulting</h1>
+  <p class="lead">
+    I work with individual engineers and small teams. Sessions are remote and
+    scheduled around Japan time.
+  </p>
+</header>
+
+<div class="grid">
+  {% for service in site.data.services %}
+    <article class="card">
+      <h2>{{ service.title }}</h2>
+      <p>{{ service.description }}</p>
+      <ul>
+        {% for point in service.points %}<li>{{ point }}</li>{% endfor %}
+      </ul>
+    </article>
+  {% endfor %}
+</div>
+
+<section class="section callout">
+  <h2>Let's talk</h2>
+  <p>
+    Tell me a bit about what you are working on and what you would like help
+    with, and I will get back to you.
+  </p>
+  <p class="actions">
+    <a class="button" href="mailto:{{ site.author.email }}?subject=Mentoring%20%2F%20consulting">Email me</a>
+    <a class="button secondary" href="{{ site.links.linkedin }}" rel="noopener" target="_blank">Message on LinkedIn</a>
+  </p>
+</section>
