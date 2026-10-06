@@ -1,6 +1,6 @@
 ---
 title: About
-description: About Nicolas Munoz (narmaku), a Software Engineer living in Japan.
+description: About Nicolas Munoz (narmaku), a Software Engineer from Spain living in Japan.
 permalink: /about/
 ---
 
@@ -10,26 +10,29 @@ permalink: /about/
 
 <div class="prose" markdown="1">
 
-Hello 👋 I'm **Nico** (Nicolas Munoz, *narmaku* online), a Software Engineer with
-over a decade of experience in the IT industry. I have been passionate about
-technology 🤖 since I was a kid.
+Hello 👋 I'm **Nico** (Nicolas Munoz, or *narmaku* online), a Software Engineer
+with more than ten years of experience in the IT industry. I have been
+passionate about technology 🤖 since I was a kid.
 
-These days my work is about filling technical gaps in the industry, and lately
-that means rigorously testing the behaviour of **AI agents** — especially those
-that interact with real systems through **Model Context Protocol (MCP)** tools.
-I'm also a long-time Linux user who enjoys tinkering with developer tooling.
+These days I work on filling technical gaps in the industry, and lately that
+means testing the behavior of **AI agents**, especially the ones that use
+**Model Context Protocol (MCP)** tools. That is how I ended up building
+[rubric-kit](https://github.com/narmaku/rubric-kit) and working on
+[EvalStudio](https://github.com/eval-ops/eval-studio). I also like tinkering
+with Linux and my home lab.
 
-I have lived in Japan 🏯 since November 2022, and I occasionally write about
-life here 🇯🇵.
+I'm from Spain, and I have been living in Japan 🏯 since November 2022. I work
+remotely, and from time to time I write about life here 🇯🇵.
 
-Outside of work I enjoy martial arts 🥋, video games 🕹️, table tennis 🏓 and
-more ✨ — but what I love the most is spending quality time with my family 👨‍👨‍👧‍👦💞.
+I also enjoy hobbies such as martial arts 🥋, video games 🕹️, table tennis 🏓
+and more ✨. However, what I love the most is to spend quality time with my
+family 👨‍👨‍👧‍👦💞.
 
-## Elsewhere
+## Where to find me
 
-- Writing: [the blog]({{ site.blog.path }}/)
-- Code: [GitHub]({{ site.links.github }})
-- Professional: [LinkedIn]({{ site.links.linkedin }})
+- My blog: [narmaku.com/blog]({{ site.blog.path }}/)
+- GitHub: [narmaku]({{ site.links.github }})
+- LinkedIn: [narmaku]({{ site.links.linkedin }})
 - Email: [{{ site.author.email }}](mailto:{{ site.author.email }})
 
 </div>

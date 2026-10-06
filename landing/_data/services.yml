@@ -4,32 +4,34 @@
 # points (list of bullet points).
 
 - title: Mentoring
-  summary: One-on-one guidance for engineers growing their skills and career.
+  summary: One-on-one sessions for engineers who want some guidance with their career or skills.
   description: >-
-    Regular or one-off sessions for software engineers who want a sounding
-    board from someone who has been in the industry for over a decade.
+    If you are a software engineer and want someone to talk to about your
+    career, your code or your next step, I am happy to help. I have been in
+    the industry for more than ten years.
   points:
-    - Career growth, interviews and moving into senior roles
-    - Working as an engineer in Japan as a foreigner
-    - Code and design reviews on your own projects
-    - Getting productive with AI coding assistants
+    - Career growth and interviews
+    - Working in Japan as a foreign engineer
+    - Reviews of your code or side projects
+    - Getting the most out of AI coding assistants
 
-- title: AI agent consulting
-  summary: Design, test and evaluate AI agents that act on real systems.
+- title: AI agent evaluation
+  summary: Help with testing and evaluating AI agents and MCP tools.
   description: >-
-    Hands-on help for teams building agents on top of LLMs and the Model
-    Context Protocol (MCP), with a focus on making their behaviour measurable.
+    This is what I spend most of my time on lately. I can help your team
+    decide how to evaluate your agents, write rubrics and catch hallucinations
+    and inconsistent behavior.
   points:
-    - Evaluation strategy, rubrics and test suites for agents
-    - MCP server and tool design reviews
-    - Guardrails for agents operating on infrastructure
+    - Evaluation strategy and rubrics (I built rubric-kit for this)
+    - Reviews of MCP servers and tool design
+    - Choosing judge models, including cheap and local ones
 
 - title: Linux & developer tooling
-  summary: Faster, reproducible development environments for your team.
+  summary: Help with Linux workstations, containers and dev environments.
   description: >-
-    Advice on the workstation and tooling side of engineering, from
-    containers to automation.
+    I have used Linux for years and I enjoy tinkering with my setup and my
+    home lab.
   points:
-    - Container-based, reproducible dev environments
-    - Linux workstation setup and automation
-    - CI/CD and developer-experience improvements
+    - Container based dev environments (Distrobox, Podman)
+    - Home lab setups with Proxmox
+    - CI/CD and small automations

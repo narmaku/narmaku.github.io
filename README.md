@@ -10,9 +10,9 @@ and services, plus the blog.
 
 Both are built into `_site/` by `tools/build.sh` and published to:
 
-- **https://narmaku.com** — Cloudflare Workers (static assets), deployed by
+- **https://narmaku.com**: Cloudflare Workers (static assets), deployed by
   Workers Builds on every push to `main`. Configuration: `wrangler.jsonc`.
-- **https://narmaku.github.io** — GitHub Pages mirror, deployed by
+- **https://narmaku.github.io**: GitHub Pages mirror, deployed by
   `.github/workflows/pages-deploy.yml`. Canonical URLs point to narmaku.com.
 
 ## Editing content
