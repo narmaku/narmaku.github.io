@@ -1,13 +1,13 @@
-# narmaku.com — personal site (landing, about, projects, services).
+# narmaku.com: personal site (landing, about, projects, services).
 #
 # This is a small standalone Jekyll site. The blog (Chirpy theme) lives in the
 # repository root and is built into `/blog` next to it. See `tools/build.sh`.
 
 title: Nicolas Munoz
-tagline: Software Engineer in Japan · AI agents, Linux & developer tooling
+tagline: Software Engineer living in Japan
 description: >-
-  Nicolas Munoz (narmaku) — Software Engineer with over a decade of experience,
-  living in Japan. Writing, projects, mentoring and consulting.
+  I'm Nico (narmaku), a Software Engineer from Spain living in Japan. Here you
+  can find my blog, my projects, and how I can help with mentoring and consulting.
 lang: en
 timezone: Asia/Tokyo
 

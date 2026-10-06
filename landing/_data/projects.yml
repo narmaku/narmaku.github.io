@@ -1,34 +1,47 @@
-# Projects shown on /projects/ (and the first `featured` ones on the home page).
+# Projects shown on /projects/ (and the `featured` ones on the home page).
 #
 # Fields:
 #   name:        project name (required)
 #   description: one or two sentences (required)
-#   url:         main link — repo, demo or write-up (optional)
+#   url:         main link: repo, demo or write-up (optional)
 #   links:       extra links, e.g. [{title: Demo, url: https://...}] (optional)
 #   tags:        short list of technologies (optional)
 #   featured:    true to show it on the home page (optional)
 
-- name: Rubrics for evaluating AI agents
+- name: EvalStudio
   description: >-
-    A repeatable, rubric-based way to evaluate how AI agents behave when they
-    act on real systems through MCP tools — consistent scores instead of
-    one-off manual checks.
-  url: /blog/posts/lets-talk-about-rubrics/
-  tags: [AI agents, MCP, testing, LLM evaluation]
+    A workspace to build, run and improve AI evaluations: datasets, rubrics,
+    Q&A and RAG evaluations, live agent sessions and a model arena, all from
+    one UI that works for engineers and non-technical experts.
+  url: https://github.com/eval-ops/eval-studio
+  tags: [AI evaluation, React, FastAPI, LiteLLM]
   featured: true
 
-- name: Reproducible dev environments on Aurora OS
+- name: rubric-kit
   description: >-
-    Using Distrobox containers on an immutable Linux desktop to keep every
-    toolchain isolated, disposable and reproducible.
-  url: /blog/posts/leveraging-aurora-os-distroboxes/
-  tags: [Linux, containers, developer experience]
+    My framework to generate rubrics and use them to evaluate AI agents, from
+    Q&A pairs or exported chat sessions. It uses a panel of LLM judges, and it
+    works fine with cheap or local models.
+  url: https://github.com/narmaku/rubric-kit
+  links:
+    - title: Blog post
+      url: /blog/posts/lets-talk-about-rubrics/
+    - title: PyPI
+      url: https://pypi.org/project/rubric-kit/
+  tags: [Python, LLM evaluation, MCP]
+  featured: true
+
+- name: Walter, my AI butler
+  description: >-
+    An experiment with Openclaw: a personal butler on Telegram that manages my
+    agenda and calendar, running in an LXC container in my home lab.
+  url: /blog/posts/i-almost-got-enamored-with-my-butler/
+  tags: [AI agents, Proxmox, home lab]
   featured: true
 
 - name: narmaku.com
   description: >-
-    This site: a Jekyll landing page plus a Chirpy blog, built in one pipeline
-    and served from Cloudflare's edge, mirrored on GitHub Pages.
+    This site. A small Jekyll landing page plus my Chirpy blog, built together
+    and served by Cloudflare Workers, with a copy on GitHub Pages.
   url: https://github.com/narmaku/narmaku.github.io
   tags: [Jekyll, Cloudflare Workers, GitHub Actions]
-  featured: true
